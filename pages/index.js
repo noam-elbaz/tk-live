@@ -1,3 +1,7 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+export default function Main() {
+  return (
+    <div className="bg-gray-50 grid place-items-center w-screen h-screen">
+      <div>Hello</div>
+    </div>
+  );
 }
